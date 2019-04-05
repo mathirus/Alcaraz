@@ -90,8 +90,8 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
-  background-size: cover;
+  background-color: white;
+ 
 }
 
 @media (min-width: 1024px) {
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.8);
+   background-color: white;
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -117,16 +117,11 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
-#hero h1 {
-  margin: 30px 0 10px 0;
+h1{
+  color: #468cfa;
+  font-size: 64px;
 
-
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 90px;
-  font-weight: 500;
-  line-height: 10px;
-    
+  font-family: "Raleway", sans-serif;
 }
 
 
@@ -226,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #111;
+  background:rgba(76, 129, 217);
   padding: 20px 0;
   height: 90px;
 }
@@ -243,11 +238,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  text-transform: uppercase;
-}
+  color: white;
+  }
 
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color:white;
 }
 
 #header #logo img {
@@ -269,7 +264,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .is-sticky #header {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(76, 129, 217, 0.50);
+  transition-duration: 1s;
 }
 
 /*--------------------------------------------------------------
@@ -348,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 15px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color:white;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -356,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #03C4EB;
+  color:white;
 }
 
 .nav-menu ul {
@@ -610,10 +606,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #111;
 }
 
+#services .service-title a:hover{
+  color: #468cfa;
+}
+
+
+
 #services .service-description {
   margin-left: 80px;
   line-height: 24px;
 }
+
+
 
 
 .cualidad{
@@ -690,7 +694,7 @@ min-height: 200px;
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+ 
   padding: 80px 0;
 }
 

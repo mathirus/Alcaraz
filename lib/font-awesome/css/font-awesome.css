@@ -190,6 +190,7 @@
   content: "\f002";
 }
 .fa-envelope-o:before {
+    color: #468cfa;
   content: "\f003";
 }
 .fa-heart:before {
@@ -371,6 +372,7 @@
   content: "\f040";
 }
 .fa-map-marker:before {
+    color: #468cfa;
   content: "\f041";
 }
 .fa-adjust:before {
@@ -613,6 +615,7 @@
   content: "\f094";
 }
 .fa-phone:before {
+    color: #468cfa;
   content: "\f095";
 }
 .fa-square-o:before {
@@ -623,6 +626,7 @@
 }
 .fa-phone-square:before {
   content: "\f098";
+    color:#468cfa;
 }
 .fa-twitter:before {
   content: "\f099";
