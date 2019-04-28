@@ -9,17 +9,15 @@
 <?php
 
 $nombre = $_POST['nombre'];
-$telefono = $_POST['telefono'];
+
 $email = $_POST['email'];
 $consulta = $_POST['consulta'];
 $asunto = "Has recibido una nueva consulta";
-$contenido = "Nombre: " .$nombre ."<br>correo: " . $email . "<br>telefono: " . $telefono . "Ha escrito: " . $consulta;
+$contenido = "Nombre: " .$nombre ."<br>correo: " . $email . "Ha escrito: " . $consulta;
 
 
 
 echo $nombre;
-
-echo $telefono;
 
 echo $email;
 
