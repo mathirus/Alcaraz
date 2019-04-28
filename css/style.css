@@ -14,7 +14,8 @@ body {
 }
 
 a {
-  color: #03C4EB;
+      text-decoration: none;
+    color: #333333;
   transition: 0.5s;
 }
 
@@ -119,29 +120,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-  color: #468cfa;
-  font-size: 64px;
+  color: #2b5aa5;
+  font-size: 60px;
 
   font-family: "Raleway", sans-serif;
 
 }
 #hero h1{
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.5);
 }
 
 
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-    letter-spacing: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 10px;
   }
 }
 
 
 #hero h2 {
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.6);
   
     
 }
@@ -777,9 +778,9 @@ min-height: 200px;
   color: #fff;
 }
 
-#footer .copyright {
-  text-align: center;
-}
+#footer align: center;
+}.copyright {
+  text-
 
 #footer .credits {
   padding-top: 10px;
@@ -807,3 +808,4 @@ min-height: 200px;
     text-align: center;
     margin-top: 5%;
   }
+
