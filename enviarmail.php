@@ -15,6 +15,11 @@ $consulta = $_POST['consulta'];
 $asunto = "Has recibido una nueva consulta";
 $contenido = "Nombre: " .$nombre ."<br>correo: " . $email . "Ha escrito: " . $consulta;
 
+$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+$cabeceras .= 'From: '.$nombre.' <'.$email.'>' . "\r\n";
+
 
 
 echo $nombre;
@@ -25,7 +30,7 @@ echo $consulta;
 
 
 
-$enviarmail=mail('mathirusln@hotmail.com',$asunto,$contenido);
+$enviarmail=mail('mathirusln@hotmail.com',$asunto,$contenido,$cabeceras);
 
 
 
