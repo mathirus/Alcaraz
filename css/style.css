@@ -228,7 +228,7 @@ h1{
 # Header
 --------------------------------------------------------------*/
 #header {
-  background:rgba(76, 129, 217);
+  
   padding: 20px 0;
   height: 90px;
 }
@@ -242,10 +242,11 @@ h1{
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+    font-weight: 700;
   letter-spacing: 3px;
-  color: white;
+  color: #4c4d4f;
   }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -351,7 +352,7 @@ h1{
   padding: 10px 15px;
   text-decoration: none;
   display: inline-block;
-  color:white;
+  color:black;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -811,4 +812,8 @@ min-height: 200px;
 
 .foco{
   font-size: large;
+}
+
+.JIT{
+    font-size: 30px;
 }
