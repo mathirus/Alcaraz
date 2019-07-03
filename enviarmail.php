@@ -30,7 +30,7 @@ echo $consulta;
 
 
 
-$enviarmail=mail('mathirusln@hotmail.com',$asunto,$contenido,$cabeceras);
+$enviarmail=mail('JoseLuis@estudiocontableadministrativojit.com',$asunto,$contenido,$cabeceras);
 
 
 
