@@ -6,7 +6,42 @@
 */
 /*--------------------------------------------------------------
 # General
+
+
 --------------------------------------------------------------*/
+.barrita {
+  position: fixed; 
+  right: 15px; 
+  top: 80%; 
+  z-index: 2000;
+  border-radius: 50%; 
+}
+
+  .barrita ul {
+    list-style: none;
+  }
+
+  .barrita ul li a {
+    display: inline-block;
+    
+    background: rgba(255,255,255,0.1);
+    padding: 5px 5px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    font-size: 28px
+  }
+
+
+ 
+  
+
+  .barrita ul li a:hover {
+    background: #000; 
+    padding: 5px 25px; 
+  }
+
 body {
   background: #fff;
   color: #666666;
@@ -817,3 +852,4 @@ min-height: 200px;
 .JIT{
     font-size: 30px;
 }
+
